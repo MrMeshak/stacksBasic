@@ -12,7 +12,7 @@ const initialState:ILibraryState = {
 }
 
 const axiosCollection = axios.create({
-    baseURL: "http://localhost:4000/api/collection",
+    baseURL: "https://stacks-app.herokuapp.com/api/collection/api/collection",
     timeout: 4000
 })
 
